@@ -52,7 +52,7 @@ const Sidebar = () => {
     <div className='sidebar-container'>
       <div className="f">
         <img src={Meet} alt="" style={{ width: '40%' }} />
-        <a href="https://refmemeet.vercel.app" target='_blank' style={{ width: '40%', textDecoration: 'none', color: 'black' }}>Create Meet</a>
+        <a href="https://agrico-meet.vercel.app/" target='_blank' style={{ width: '40%', textDecoration: 'none', color: 'black' }}>Create Meet</a>
       </div>
 
       <div className="t">
