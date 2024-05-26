@@ -20,14 +20,19 @@ form.Login h1 {
     line-height: 1.4;
     font-size: 1.2rem;
     font-weight: normal;
+    
 }
+
 
 form.Login h1 strong {
     display: block;
-    color: #1054de;
+    color: green;
     font-size: 1.5rem;
+    margin-left: 25px;
 }
-
+label{
+    color: green;
+}
 form.Login label {
     margin-bottom: 0.5rem;
     padding-left: 0.1rem;
@@ -53,7 +58,7 @@ form.Login button {
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 0.25rem;
-    background: #1054de;
+    background: green;
     cursor: pointer;
     color: #fff;
     font-size: 1rem;
@@ -136,3 +141,23 @@ form.Login button:hover {
     text-align: center;
 }
 /* This is end of SmallDiv */
+
+body {
+    /* Add your background image URL here */
+    /* background-image: url('../assets/farm.jpg'); */
+    /* Set background size to cover the entire viewport */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Apply a fixed background */
+    /* background-attachment: fixed; */
+    /* Optional: Add additional styling */
+    /* Add more styling as needed */
+  }
+  
+  /* form{
+    background: rgb(62, 44, 3);
+    border: rgb(128, 87, 0);
+    padding: auto;
+  } */
+
